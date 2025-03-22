@@ -2,6 +2,6 @@
 
 int main() {
     printf("supertrunfo/n");
-
-    return 0;
+    int  idade;                                                                  
+  return 0;  
 }
