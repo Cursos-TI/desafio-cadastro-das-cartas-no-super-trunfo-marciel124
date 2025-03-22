@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main(){
-char Estado_1[3];
-char Número_da_carta_1[3];
-char Cidade_1[10];
-int População_1;
-float Área_1; 
-
+ char estado_1[3];
+ 
+    printf("digite o estado:");
+    scanf("%s",estado_1);
+    printf("o estado e;%s",estado_1);
   return 0;  
 }
