@@ -8,7 +8,7 @@ int main(){
 
     printf("digite o estado:");
     scanf("%s",estado_1);
-    printf("o estado e: %s",estado_1);
+    printf("o estado e: %s",estado_1); 
 
     printf("digite o numero da carta:");
     scanf("%s", numero_da_carta_1);
@@ -18,9 +18,9 @@ int main(){
     scanf("%s", nome_da_cidade_1);
     printf("o nome da cidade e: %s",nome_da_cidade_1); 
    
-   printf("digite a populaçao: ");
-   scanf("%d", &populacao_1);
-    
+    printf("digite a populaçao: ");
+    scanf("%d", &populacao_1);
+    printf("quantidade da populacao e: %d", populacao_1 );
    
     return 0;
 }
