@@ -59,19 +59,19 @@ int main(){
     printf("a cidade e: %s ", Cidade_2);
  
     printf("digite a populacao " );
-    scanf("%d", Populacao_2);
+    scanf("%d",&Populacao_2);
     printf("a quantidade da populacao e: %d ", Populacao_2 );
   
     printf("digite a area em km " );
-    scanf("%f",Area_2);
+    scanf("%f",&Area_2);
     printf("a area em km e: %f ", Area_2 );
 
     printf("digite o PIB" );
-    scanf("%f", PIB_2);
+    scanf("%f", &PIB_2);
     printf("o PIB e: %f ", PIB_2 );
      
     printf("digite os pontos turisticos"  );
-    scanf("%d", Pontos_Turisticos_2);
+    scanf("%d", &Pontos_Turisticos_2);
     printf("numeros de ponto turisticos sao: %d ", Pontos_Turisticos_2 );
 
     return 0;
